@@ -1,7 +1,7 @@
 Zenstrap Simple Bootstrap WordPress Theme
 =================================
 
-A simple and clean WordPress theme built on Bootstrap
+A simple and clean WordPress theme built on Bootstrap using the [WordPress Bootstrap Starter Theme](https://github.com/48Web/WordPress-Bootstrap-Starter-Theme) as a base and [Zenhabits.net](http://zenhabits.net) as inspiration.
 
 Options
 -------
