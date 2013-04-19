@@ -1,5 +1,6 @@
 /* --[ Layout ]-- */
-body { padding-top: 60px; }
+body { }
+.wrap {width: 600px; margin: 0 auto;}
 
 /* --[ COMMENTS]-- */
 /* facebook comments */

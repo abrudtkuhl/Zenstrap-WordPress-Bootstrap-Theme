@@ -4,7 +4,8 @@
 	</div>
 </footer>
 
-</div><!--#end #container-->
+</div><!--#end .container-->
+</div><!--#end .wrap-->
 
 <div class="hide">
 	<?php wp_footer(); ?>

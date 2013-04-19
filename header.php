@@ -32,8 +32,5 @@
 	  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
 	  fjs.parentNode.insertBefore(js, fjs);
 	}(document, 'script', 'facebook-jssdk'));</script>
-	<header id="header">
-		Andy Brudtkuhl 
-		<!-- TOOD: make this dynamic -->
-	</header>
-	<div id="container" class="container">
+	<div class="wrap">
+		<div class="container-fluid">
