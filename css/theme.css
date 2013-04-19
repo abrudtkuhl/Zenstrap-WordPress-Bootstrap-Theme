@@ -7,12 +7,13 @@ body { font-family: 'Noto Sans', Helvetica, Georgia, sans-serif; }
   .comments h3 { margin-top: 60px ;}
 /* Global Styles */
 h1 { font: normal 30px 'Noto Sans',Helvetica,sans-serif; }
-  h1 a { text-decoration: none; border: none; }
-a { color: #444; text-decoration: none;
+  h1 a { text-decoration: none; border: none; color: #000; }
+a { color: #3a87ad; text-decoration: none;
     border-width: 0 0 1px 0;
     border-style: none none solid none;
     border-color: #c0c0c0; 
   }
+a:hover { text-decoration: none; }
 p { font-size: 18px; line-height: 30px; margin-top: 20px; }
 
 /* --[ COMMENTS]-- */
