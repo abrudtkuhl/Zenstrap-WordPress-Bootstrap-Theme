@@ -18,7 +18,8 @@
 	<link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/font-awesome.css">
 	<link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/wp.css">
 	<link rel="stylesheet" href="<?php bloginfo('stylesheet_directory'); ?>/style.css">
-	
+	<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans">
+
 	<?php wp_head(); ?>
 	
 </head>

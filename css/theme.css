@@ -1,5 +1,7 @@
 /* --[ Layout ]-- */
-body { }
+body { font: Helvetica, Georgia; }
+h1 { font: normal 100% Open Sans,Helvetica,sans-serif; }
+p { font-size: 18px; line-height: 30px; margin-top: 20px; }
 .wrap {width: 600px; margin: 0 auto;}
 
 /* --[ COMMENTS]-- */

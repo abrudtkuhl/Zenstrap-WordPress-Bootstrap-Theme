@@ -1,5 +1,4 @@
 <?php 
-
 if (have_posts()): while (have_posts()): the_post(); ?>
   <div class="post">
     <h2><a href="<?php the_permalink() ?>" rel="permalink"><?php the_title(); ?></a></h2>
@@ -15,6 +14,6 @@ if (have_posts()): while (have_posts()): the_post(); ?>
   </div><!--#end post-->
 <?php endwhile; endif; ?>
 <div class="navigation">
-  <div class="alignleft"><?php previous_post_link('%link')?></div>
-  <div class="alignright"><?php next_post_link('%link')?></div>  
+  <div class="alignleft"><?php previous_post_link('<strong>%link</strong>'); ?></div>
+  <div class="alignright"><?php next_post_link('<strong>%link</strong>'); ?></div>
 </div>
