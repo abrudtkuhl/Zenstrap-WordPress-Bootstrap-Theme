@@ -1,9 +1,10 @@
 /* --[ Layout ]-- */
 body { font-family: 'Noto Sans', Helvetica, Georgia, sans-serif; }
 .wrap {width: 600px; margin: 0 auto;}
-.navigation { margin: 20px 0; }
+.navigation { clear: both; margin: 20px 0;}
 .footer { margin: 25px 0 10px 0; text-align: center; font-size: 11px; }
-
+.comments { margin: 30px 0; clear: both; }
+  .comments h3 { margin-top: 60px ;}
 /* Global Styles */
 h1 { font: normal 30px 'Noto Sans',Helvetica,sans-serif; }
   h1 a { text-decoration: none; border: none; }
@@ -16,5 +17,5 @@ p { font-size: 18px; line-height: 30px; margin-top: 20px; }
 
 /* --[ COMMENTS]-- */
 /* facebook comments */
-.fb-comments, .fb-comments iframe[style], .fb-like-box, .fb-like-box iframe[style] {width: 100% !important;}
-.fb-comments span, .fb-comments iframe span[style], .fb-like-box span, .fb-like-box iframe span[style] {width: 100% !important;}
+.fb-comments, .fb-comments iframe[style], .fb-like-box, .fb-like-box iframe[style] {width: 100% !important; }
+.fb-comments span, .fb-comments iframe span[style], .fb-like-box span, .fb-like-box iframe span[style] {width: 100% !important; }

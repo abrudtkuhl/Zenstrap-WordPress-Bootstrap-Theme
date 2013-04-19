@@ -16,7 +16,8 @@ if (have_posts()): while (have_posts()): the_post(); ?>
     </div>
 
     <?php if(comments_open()): ?>
-      <div id="comments">
+      <div class="comments">
+        <h3>Comments</h3>
         <?php comments_template(); ?>
       </div>
     <?php endif; ?>
