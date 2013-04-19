@@ -1,11 +1,10 @@
-WordPress-Bootstrap-Starter-Theme
+Zenstrap Simple Bootstrap WordPress Theme
 =================================
 
-A responsive WordPress starter theme built on Bootstrap
+A simple and clean WordPress theme built on Bootstrap
 
 Options
 -------
-+ Toggle between fluidfluid and static layouts from Bootsrap via Admin Theme Options
 + Toggle between WordPress and Facebook comments via Admin Theme Options
 
 Kudos

@@ -33,27 +33,7 @@
 	  fjs.parentNode.insertBefore(js, fjs);
 	}(document, 'script', 'facebook-jssdk'));</script>
 	<header id="header">
-		<div class="navbar navbar-fixed-top">
-			<div class="navbar-inner">
-				<div class="container<?php if (IS_FLUID) echo '-fluid' ?>">
-				  <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
-				    <span class="icon-bar"></span>
-				    <span class="icon-bar"></span>
-				    <span class="icon-bar"></span>
-				  </a>
-				  <a class="brand" href="<?php bloginfo('url'); ?>"><?php bloginfo('name'); ?></a>
-				  <div class="nav-collapse">
-				  	<?php if (has_nav_menu('primary-menu')): 
-							wp_nav_menu( array( 'container' => false, 'menu_class' => 'nav', 'theme_location' => 'primary-menu', 'fallback_cb' => 'display_home' ) );
-					else: ?>
-						<ul class="nav">
-							<li><a href="<?php echo home_url(); ?>/">Home</a></li>
-							<?php wp_list_pages('title_li=' ); ?>
-					    </ul><!-- end .menu -->
- 					<?php endif;	?>
-				  </div><!--/.nav-collapse -->
-				</div>
-			</div>
-		</div>
+		Andy Brudtkuhl 
+		<!-- TOOD: make this dynamic -->
 	</header>
-	<div id="container" class="container<?php if (IS_FLUID) echo '-fluid' ?>">
+	<div id="container" class="container">

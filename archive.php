@@ -1,6 +1,6 @@
 <?php /* --[ Archive Page Template ] -- */ ?>
 <?php get_header(); ?>
-<div class="row<?php if (IS_FLUID) echo '-fluid' ?>">
+<div class="row">
     <div id="content" class="span9">
         <?php if (have_posts()): while (have_posts()): the_post(); ?>
             <div class="post">
@@ -11,8 +11,5 @@
             </div><!--#end post-->
         <?php endwhile; endif; ?>
     </div><!--#end content -->
-    <div class="span3">
-        <?php get_sidebar(); ?>
-    </div><!--#end sidebar -->
 </div>
 <?php get_footer(); ?>
